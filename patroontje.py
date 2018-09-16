@@ -1,1 +1,1 @@
-print(
+print(str(float(12)) *5)
