@@ -9,6 +9,6 @@ rechter_lid =abs(x - y)
 #uitvoer
 uitvoer = str(linker_lid) + '' + str(rechter_lid)
 
-print('{:.4f} ≤ {:.4f}'.format(linker_lid, rechter_lid))
+print('{:.4f} ≤ {:.4f}'.format(abs(linker_lid), abs(rechter_lid)))
 
 
