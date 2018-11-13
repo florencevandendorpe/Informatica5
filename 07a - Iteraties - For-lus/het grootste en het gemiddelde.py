@@ -1,27 +1,30 @@
-#invoer
-a = int(input('geef getallen : '))
+# invoer
+aantal_getallen = int(input('aantal getallen: '))
 max = 0
 som = 0
 
-#uitvoer
-for i in range(a):
-    getal = int(input('getal: '))
+for i in range (aantal_getallen):
+
+    getal = int (input('getal: '))
     if i == 0:
         max = getal
+        som = getal
+
+
     elif getal > max:
         max = getal
-    som += getal
+        som += getal
+    else:
+        som += getal
 
-gemiddelde = round((som / a), 2)
+
+gemiddelde = round((som / aantal_getallen), 2)
 
 #uitvoer
-print('Het grootste getal is ' + str(max) + ' en het gemiddelde is ' + str('{.2f}'.format(gemiddelde)))
+
+print('{} {:d} {} {:.2f}' .format('Het grootste getal is', max, 'en het gemiddelde is', gemiddelde))
 
 
 
 
 
-
-
-#uivoer
-print('het grootste getal is ' + 'en het gemiddelde is ' + )
